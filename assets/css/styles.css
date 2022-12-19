@@ -217,6 +217,17 @@ section {
             max-width: 16px;
             max-height: 16px;
         }
+
+        /*** Modales ***/
+        .modal-dialog {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .modal-dialog-centered{
+            display: flex;
+            text-align: center;
+        }
     }
 
     @media screen and (max-width: 768px) {
@@ -256,7 +267,8 @@ section {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 4px;    
+        justify-content: center;
+        gap: 4px;
     }
     
     .header img.ubication-icon{
@@ -302,10 +314,11 @@ section {
 
     .carousel-inner {
         height: 400px;
+        display: flex;
+        align-items: center;
     }
 
     .carousel-item img {
         height: auto;
         object-fit: cover;
-        vertical-align: middle;
     }

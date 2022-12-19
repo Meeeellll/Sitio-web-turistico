@@ -20,13 +20,96 @@
         </div>
     </nav>
 
-    <!---------- Header ---------->
-    <section class="header">
-        <div>
-            <h1>La Barra de Santiago</h1>
-            <h3>Descubre lo que El Salvador tiene para tí.</h3>
-        </div>
-    </section>
+    <!------------- Header ------------->
+    <div class="container-xl">
+        <section class="header">
+            <div class="row">
+                <div class="col">
+                    <h1>La Barra de Santiago</h1>
+                    <div class="ubication">
+                        <img src="../assets/img/marker.png" class="ubication-icon">
+                        <h3>Ahuachapan y Sonsonate, El Salvador.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!------------- Contenido ------------->
+        <section class="contenido">
+            <div class="row">
+                <div class="col-xl-6 izquierda">
+                    <p>La playa Barra de Santiago
+                        <br>
+                        <br>
+                        Es uno de los destinos turísticos de más importancia de El Salvador, ya que comprende esteros, manglares y por ser el hogar de centenares de especies protegidas y amenazadas, siendo el lugar idóneo para el avistamiento de aves nativas y migratorias.
+                        <br>
+                        <br>
+                        Su playa ocupa más de 2.000 hectáreas, y se destaca por sus olas constantes y arena fina, con ambiente es cautivante, con las mejores condiciones para la práctica del ecoturismo, deportes acuáticos o simplemente dedicarse al relax.</p>
+                </div>
+                <div class="col-xl-1"></div>
+                <div class="col-xl-5 derecha">
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31011.17383670769!2d-90.03055843700183!3d13.694405280383165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62a827bdc70ce5%3A0x8219d9606e7f887e!2sBarra%20de%20Santiago!5e0!3m2!1ses-419!2ssv!4v1671489392145!5m2!1ses-419!2ssv" width="450" height="277" style="border: 1px solid black; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    
+                    <div class="mini-carrusel">
+                        <!-- Button trigger modal -->
+                        <div class="cont-miniCarrusel">
+                            <a class="img-miniCarrusel" data-bs-toggle="modal" data-bs-target="#modal1">
+                                <img src="../assets/img/barra de santiago 1.jpg">
+                            </a>
+                            <a class="img-miniCarrusel" data-bs-toggle="modal" data-bs-target="#modal1">
+                                <img src="../assets/img/barra de santiago 2.jpg">
+                            </a>
+                            <a class="img-miniCarrusel" data-bs-toggle="modal" data-bs-target="#modal1">
+                                <img src="../assets/img/barra de santiago 3.jpg">
+                            </a>
+                        </div>
+                        
+                
+  
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modal1Label">La Barra de Santiago</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+
+                                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                                            
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="../assets/img/barra de santiago 1.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="../assets/img/barra de santiago 2.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="../assets/img/barra de santiago 3.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- Modal-->
+                    </div> <!-- Mini carrusel-->
+                </div> <!-- Col derecha -->
+            </div> <!-- Row -->
+        </section>
+    </div>
     
 
     <!-- JavaScript Bundle with Popper -->
