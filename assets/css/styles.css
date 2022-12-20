@@ -323,7 +323,7 @@ section {
         object-fit: cover;
     }
 
-    /** Ajustes de imagenes */
+    /** Ajustes de imagenes modales */
     .ajuste-img1 {
         top: 10%;
         transform: translateY(-10%);
