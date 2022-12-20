@@ -8,7 +8,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="../assets/css/styles.css" rel="stylesheet">
-    <title>La Puerta del Diablo</title>
+    <title>Puerta del Diablo</title>
 </head>
 <body>
     
@@ -19,6 +19,97 @@
           <a class="navbar-brand" href="../index.html"> Nombre </a>
         </div>
     </nav>
+
+    <!------------- Header ------------->
+    <div class="container-xl">
+        <section class="header">
+            <div class="row">
+                <div class="col">
+                    <h1>Puerta del Diablo</h1>
+                    <div class="ubication">
+                        <img src="../assets/img/marker.png" class="ubication-icon">
+                        <h3>Panchimalco, San Salvador, El Salvador.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!------------- Contenido ------------->
+        <section class="contenido">
+            <div class="row">
+                <div class="col-xl-6 izquierda">
+                    <p>La magia que tiene este sitio turístico es una grieta formada por dos peñascos en el cerro El Chulo.
+                        <br>
+                        <br>
+                        Uno de los atractivos principales de aquí son sus maravillosas vistas. En el mirador se puede contemplar la capital, el Océano Pacífico, el Lago de Llopango y el Volcán de San Vicente.
+                        <br>
+                        <br>
+                        Este atractivo natural se originó, acorde a unos historiadores, por una fuerte tormenta que ocurrió el 8 de octubre de 1762. Esta grieta dio origen a muchos mitos.</p>
+                </div>
+                <div class="col-xl-1"></div>
+                <div class="col-xl-5 derecha">
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16929.699127932097!2d-89.13476233022462!3d14.388589900000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6333dd4dd8b4a9%3A0x64ab35fb0d7621fa!2sPuerta%20del%20Diablo!5e0!3m2!1ses-419!2ssv!4v1671510983659!5m2!1ses-419!2ssv" width="450" height="277" style="border: 1px solid black; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    
+                    <div class="mini-carrusel">
+                        <!-- Button trigger modal -->
+                        <div class="cont-miniCarrusel">
+                            <a class="img-miniCarrusel" data-bs-toggle="modal" data-bs-target="#modal1">
+                                <img src="../assets/img/puerta del diablo 1.jpg">
+                            </a>
+                            <a class="img-miniCarrusel" data-bs-toggle="modal" data-bs-target="#modal1">
+                                <img src="../assets/img/puerta del diablo 2.jpg">
+                            </a>
+                            <a class="img-miniCarrusel" data-bs-toggle="modal" data-bs-target="#modal1">
+                                <img src="../assets/img/puerta del diablo 3.jpg">
+                            </a>
+                        </div>
+                        
+                
+  
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modal1Label">Puerta del Diablo</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+
+                                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                                            
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="../assets/img/puerta del diablo 1.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="../assets/img/puerta del diablo 2.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="../assets/img/puerta del diablo 3.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- Modal-->
+                    </div> <!-- Mini carrusel-->
+                </div> <!-- Col derecha -->
+            </div> <!-- Row -->
+        </section>
+    </div>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
