@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Nunito:wght@800&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="../assets/css/styles.css" rel="stylesheet">
@@ -13,7 +13,7 @@
 <body>
     <!------------ Navbar ------------>
 
-    <nav class="navbar bg-dark">
+    <nav class="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"> Nombre </a>
         </div>
@@ -40,7 +40,7 @@
                     <p>Esta playa es conocida por la famosa piedra que forma la imagen de un Tunco (Cerdo) que se encuentra a la orilla de este lugar.
                         <br>
                         <br>
-                        Posee arena volcánica y el desagüe del río Grande de La Libertad, el cual es conocido como La Bocana del Tunco. Esta playa es ideal para practicar surf ya que  posee oleaje alto.
+                        Posee <span class="resaltar">arena volcánica y el desagüe del río Grande de La Libertad</span>, el cual es conocido como La Bocana del Tunco. Esta playa es <span class="resaltar">ideal para practicar surf</span> ya que  posee oleaje alto.
                         <br>
                         <br>
                         En el Tunco podrás encontrar muchos establecimientos de comida, alojamiento y bares. Disfrutarás de un ambiente incomparable, con buena música de los restaurantes y bares que se encuentran alrededor; en ellos pueden degustarse exquisitos platillos nacionales e internacionales, cuya especialidad son los mariscos.</p>
@@ -60,7 +60,7 @@
                             <a class="img-miniCarrusel" data-bs-toggle="modal" data-bs-target="#modal1">
                                 <img src="../assets/img/el tunco 2.jpg">
                             </a>
-                            <a class="img-miniCarrusel" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <a class="img-miniCarrusel img-hide" data-bs-toggle="modal" data-bs-target="#modal1">
                                 <img src="../assets/img/el tunco 3.jpg">
                             </a>
                         </div>
@@ -109,6 +109,13 @@
             </div> <!-- Row -->
         </section>
     </div>
+
+    <!---------- Footer ---------->
+    <footer class="footer">
+        <div class="container-fluid text-center">
+            <p>Made by Melanie Elías.</p>
+        </div>
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

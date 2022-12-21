@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Nunito:wght@800&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="../assets/css/styles.css" rel="stylesheet">
@@ -14,7 +14,7 @@
 
     <!------------ Navbar ------------>
 
-    <nav class="navbar bg-dark">
+    <nav class="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"> Nombre </a>
         </div>
@@ -28,7 +28,7 @@
                     <h1>La Barra de Santiago</h1>
                     <div class="ubication">
                         <img src="../assets/img/marker.png" class="ubication-icon">
-                        <h3>Ahuachapan y Sonsonate, El Salvador.</h3>
+                        <h3>Ahuachapán y Sonsonate, El Salvador.</h3>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                     <p>La playa Barra de Santiago
                         <br>
                         <br>
-                        Es uno de los destinos turísticos de más importancia de El Salvador, ya que comprende esteros, manglares y por ser el hogar de centenares de especies protegidas y amenazadas, siendo el lugar idóneo para el avistamiento de aves nativas y migratorias.
+                        Es uno de los destinos turísticos de más importancia de El Salvador, ya que <span class="resaltar">comprende esteros, manglares</span> y por ser el <span class="resaltar">hogar de centenares de especies protegidas y amenazadas</span>, siendo el lugar idóneo para el avistamiento de aves nativas y migratorias.
                         <br>
                         <br>
                         Su playa ocupa más de 2.000 hectáreas, y se destaca por sus olas constantes y arena fina, con ambiente es cautivante, con las mejores condiciones para la práctica del ecoturismo, deportes acuáticos o simplemente dedicarse al relax.</p>
@@ -61,7 +61,7 @@
                             <a class="img-miniCarrusel" data-bs-toggle="modal" data-bs-target="#modal1">
                                 <img src="../assets/img/barra de santiago 2.jpg">
                             </a>
-                            <a class="img-miniCarrusel" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <a class="img-miniCarrusel img-hide" data-bs-toggle="modal" data-bs-target="#modal1">
                                 <img src="../assets/img/barra de santiago 3.jpg">
                             </a>
                         </div>
@@ -111,6 +111,12 @@
         </section>
     </div>
     
+    <!---------- Footer ---------->
+    <footer class="footer">
+        <div class="container-fluid text-center">
+            <p>Made by Melanie Elías.</p>
+        </div>
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

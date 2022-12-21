@@ -1,27 +1,49 @@
 h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 600;
+    color: #364958;
 }
 
 h3 {
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
+    color: #364958;
 }
 
 h4 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+    color: #364958;
 }
 
 p {
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 section {
     margin-left: 30px;
     margin-right: 30px;
 }
+
+body {
+    background-color: rgb(59, 96, 100, .1);
+}
+
+.resaltar {
+    /**color: #87BBA2;*/
+    color: #55828B;
+    font-weight: 600;
+}
+
+/** Estilos del navbar */
+    .navbar {
+        background-color: #3B6064;
+    }
+
+    .navbar a {
+        color: white;
+    }
 
 /** Estilos del header */
     .header {
@@ -63,6 +85,10 @@ section {
         position: relative;
     }
 
+    .gallery-container h4 {
+        color: white;
+    }
+
     .gallery-text {
         position: absolute;
         bottom: 0;
@@ -73,13 +99,16 @@ section {
 
     .gallery-text h4 {
         margin: 0px;
-        line-height: 95.5%;
+        margin-bottom: 5px;
+        line-height: 100%;
         font-size: 20px;
     }
 
     .gallery-text p {
-        line-height: 95.5%;
+        line-height: 100%;
     }
+
+/***** Ordenando las tarjetas *****/
 
     .gallery-item:nth-child(1) {
         grid-column-start: span 4;
@@ -131,7 +160,7 @@ section {
         grid-column-start: span 3;
     }
 
-    /***** Media Querys *****/
+/***** Media Querys *****/
 
     @media screen and (max-width: 480px) {
         section {
@@ -142,6 +171,8 @@ section {
         .header h1 {
             font-size: 48px;
             margin: 0;
+            margin-bottom: 10px;
+            line-height: 98.5%;
         }
     
         .header h3 {
@@ -154,7 +185,7 @@ section {
         }
 
         .gallery-text p {
-            line-height: 95.5%;
+            line-height: 100%;
         }
 
         .gallery-container {
@@ -218,6 +249,19 @@ section {
             max-height: 16px;
         }
 
+        /**** Lado derecho ****/
+        .mapa iframe {
+            width: 99%;
+        } 
+
+        .mini-carrusel {
+            width: 90%;
+        }
+
+        a.img-hide {
+            display: none;
+        }
+
         /*** Modales ***/
         .modal-dialog {
             width: 80%;
@@ -257,6 +301,7 @@ section {
     .derecha {
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
         gap: 6px;
     }
@@ -334,4 +379,20 @@ section {
         -ms-transform: translateY(20%);
         -webkit-transform: translateY(20%);
         transform: translateY(20%);
+    }
+
+    /***** Footer *****/
+    .footer {
+        background-color: #3B6064;
+        margin-top: 50px;
+        height: 80px;
+        position: relative;
+    }
+
+    .footer p {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
